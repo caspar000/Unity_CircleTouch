@@ -1,12 +1,12 @@
 using UnityEngine;
 
-public class circlegameplay : MonoBehaviour
+public class PlayerControl : MonoBehaviour
 {
     private float scale = 0.005f;
     private float radius = 1f;
 
     [SerializeField]
-    GameObject checkpoint;
+    GameObject circleRenderer;
 
     // Update is called once per frame
     void Update()
@@ -21,12 +21,12 @@ public class circlegameplay : MonoBehaviour
                 scale = -scale;
                 if (scale < 0){
                     radius = Random.Range(0.3f, currentRadius);
-                    checkpoint.GetComponent<circlecreate>().DrawCircle(150, radius);
+                    circleRenderer.GetComponent<CircleRenderer>().DrawCircle(150, radius);
                     // Debug.Log($"Circle Radius is {currentRadius} and next objective radius is {radius}");
                 }
                 if (scale > 0){
                     radius = Random.Range(currentRadius, 2f);
-                    checkpoint.GetComponent<circlecreate>().DrawCircle(150, radius);
+                    circleRenderer.GetComponent<CircleRenderer>().DrawCircle(150, radius);
                     // Debug.Log($"Circle Radius is {currentRadius} and next objective radius is {radius}");
                 }
             }

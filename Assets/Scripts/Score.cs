@@ -18,8 +18,4 @@ public class Score : MonoBehaviour
     {
         text.SetText($"Score: {score}");
     }
-
-    public void ReloadGame() {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
 }

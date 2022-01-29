@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class circlecreate : MonoBehaviour
+public class CircleRenderer : MonoBehaviour
 {
     public LineRenderer circleRenderer;
     void Start()
