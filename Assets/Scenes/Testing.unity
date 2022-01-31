@@ -1069,6 +1069,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a1204d7f124ac498dc0bd07dd46c14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scale: 1
+  radius: 1
   circleRenderer: {fileID: 1159406598}
 --- !u!1 &1921807644
 GameObject:

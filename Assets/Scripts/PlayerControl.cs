@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class PlayerControl : MonoBehaviour
 {
-    private float scale = 0.005f;
-    private float radius = 1f;
+    [SerializeField]
+    private float scale = 0.005f, radius = 1f;
 
     [SerializeField]
     GameObject circleRenderer;
@@ -11,7 +11,7 @@ public class PlayerControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        gameObject.transform.localScale += new Vector3(scale, scale, 0f);
+        gameObject.transform.localScale += new Vector3(scale, scale, 0f) * Time.deltaTime;
         if (Input.GetMouseButtonDown(0))
         {
             float currentRadius = gameObject.transform.localScale.x/2f;
