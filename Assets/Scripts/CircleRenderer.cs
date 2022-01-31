@@ -3,9 +3,16 @@ using UnityEngine;
 public class CircleRenderer : MonoBehaviour
 {
     public LineRenderer circleRenderer;
+
+    [SerializeField]
+    private int steps=100;
+    
+    [SerializeField]
+    private float radius=1f, offsetX=0f, offsetY=0f;
+
     void Start()
     {
-        DrawCircle(100,1);
+        DrawCircle(steps,radius);
     }
 
     public void DrawCircle(int steps, float radius)
@@ -24,7 +31,7 @@ public class CircleRenderer : MonoBehaviour
             float x = xScaled * radius;
             float y = yScaled * radius;
 
-            Vector3 currentPosition = new Vector3(x,y,0);
+            Vector3 currentPosition = new Vector3(x + offsetX,y + offsetY,0);
 
             circleRenderer.SetPosition(currentStep, currentPosition);
         }
