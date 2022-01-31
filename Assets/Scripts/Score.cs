@@ -16,6 +16,6 @@ public class Score : MonoBehaviour
 
     void Update()
     {
-        text.SetText($"Score: {score}");
+        text.SetText($"SCORE: {score}");
     }
 }

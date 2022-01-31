@@ -6,4 +6,9 @@ public class Testing : MonoBehaviour
     public void Restart() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
+    public void StartEndless()
+    {
+        SceneManager.LoadScene("Testing");
+    }
 }
