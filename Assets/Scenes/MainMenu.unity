@@ -261,7 +261,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3888481672020999207, guid: 7ce228d896a397d098c62625eb5d12d8, type: 3}
       propertyPath: m_Name
-      value: PlaySVG (2)
+      value: Background Circle
       objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: 7ce228d896a397d098c62625eb5d12d8, type: 3}
       propertyPath: m_RootOrder
@@ -690,7 +690,7 @@ GameObject:
   m_Component:
   - component: {fileID: 671199498}
   m_Layer: 0
-  m_Name: GameObject (1)
+  m_Name: CircleParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -809,7 +809,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3888481672020999207, guid: 7ce228d896a397d098c62625eb5d12d8, type: 3}
       propertyPath: m_Name
-      value: PlaySVG
+      value: Background Circle
       objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: 7ce228d896a397d098c62625eb5d12d8, type: 3}
       propertyPath: m_RootOrder
@@ -879,7 +879,7 @@ GameObject:
   m_Component:
   - component: {fileID: 892476055}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: CircleParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -910,7 +910,7 @@ GameObject:
   m_Component:
   - component: {fileID: 911793324}
   m_Layer: 0
-  m_Name: GameObject (3)
+  m_Name: CircleParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1863,7 +1863,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -3888481672020999207, guid: b91d38c486235173f806c5e307fce8c1, type: 3}
       propertyPath: m_Name
-      value: CircleSVG (1)
+      value: Background Circle
       objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: b91d38c486235173f806c5e307fce8c1, type: 3}
       propertyPath: m_RootOrder
@@ -2420,7 +2420,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3888481672020999207, guid: 7ce228d896a397d098c62625eb5d12d8, type: 3}
       propertyPath: m_Name
-      value: PlaySVG (1)
+      value: Background Circle
       objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: 7ce228d896a397d098c62625eb5d12d8, type: 3}
       propertyPath: m_RootOrder
@@ -2753,7 +2753,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2048407326}
   m_Layer: 0
-  m_Name: GameObject (2)
+  m_Name: CircleParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
